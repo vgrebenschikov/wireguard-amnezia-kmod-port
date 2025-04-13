@@ -1,0 +1,7 @@
+WireGuard is a simple, fast, and secure VPN that utilizes state-of-the-art
+cryptography. This is a modified version with Amnezia support that adds
+junk packets before handshake. 
+
+With AmneziaWG advanced security extensions
+
+WWW: https://github.com/vgrebenschikov/wireguard-amnezia-kmod
