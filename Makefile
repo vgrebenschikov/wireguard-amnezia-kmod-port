@@ -1,5 +1,5 @@
 PORTNAME=	wireguard-amnezia-kmod
-PORTVERSION=	1.0.0
+PORTVERSION=	1.0.1
 CATEGORIES=	net net-vpn
 
 MAINTAINER=	vova@zote.me
@@ -11,11 +11,11 @@ LICENSE_FILE=	${WRKSRC}/COPYING
 
 USE_GITHUB=	yes
 GH_ACCOUNT=	vgrebenschikov
-GH_PROJECT=	wireguard-amnezia-kmod
-GH_TAGNAME=	v${PORTVERSION}
 
 USES=		kmod
 KMODDIR=	/boot/modules
 PLIST_FILES=	${KMODDIR}/if_wg.ko
+
+DISTVERSIONPREFIX=	v
 
 .include <bsd.port.mk>
