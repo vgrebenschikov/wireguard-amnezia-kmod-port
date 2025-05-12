@@ -1,10 +1,10 @@
 PORTNAME=	wireguard-amnezia-kmod
-PORTVERSION=	1.0.1
+PORTVERSION=	1.0.2
 CATEGORIES=	net net-vpn
 
 MAINTAINER=	vova@zote.me
 COMMENT=	WireGuard implementation with Amnezia support
-WWW=		https://github.com/vgrebenschikov/wireguard-amnezia-kmod
+WWW=		httpsk://github.com/vgrebenschikov/wireguard-amnezia-kmod
 
 LICENSE=	MIT
 LICENSE_FILE=	${WRKSRC}/COPYING
